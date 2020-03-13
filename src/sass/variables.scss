@@ -1,0 +1,22 @@
+$blackTwo: #272727;
+$black: #0e0e0e;
+$white: #fff;
+$grey: #5a5a5a;
+$grey--darker: #252525;
+$blue--strong: #1a18f7;
+$font-family-sans-serif: 'Roboto',
+sans-serif,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+"Noto Sans",
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji" !default;
+// Grid variables
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+$grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1140px);

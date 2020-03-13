@@ -1,0 +1,116 @@
+@import 'variables';
+@import './bootstrap-mixins/bootstrap-reboot.scss';
+@import './bootstrap-mixins/bootstrap-grid.scss';
+@import './bootstrap-mixins/mixins/breakpoints';
+
+@import 'fluid.scss';
+
+$body-color: black;
+
+body {
+    color: $body-color;
+
+    .container-text {
+        max-width: 1200px;
+    }
+
+    .container-fluid {
+        min-height: 75vh;
+    }
+
+    h1 {
+        color: #999999;
+        font-size: var(--step-1);
+    }
+    h3 {
+        font-size: var(--step-2);
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .fluid-0 {
+        font-size: var(--step-0);
+    }
+    .fluid-1 {
+        font-size: var(--step-1);
+    }
+    .fluid-2 {
+        font-size: var(--step-2);
+    }
+    .fluid-3 {
+        font-size: var(--step-3);
+    }
+    .fluid-4 {
+        font-size: var(--step-4);
+    }
+    .fluid-5 {
+        font-size: var(--step-5);
+    }
+    .fluid-6 {
+        font-size: var(--step-6);
+    }
+    .fluid-7 {
+        font-size: var(--step-7);
+    }
+    .fluid-8 {
+        font-size: var(--step-8);
+        // margin: var(--step-5) var(--step-1) var(--step-4) var(--step-1);
+    }
+    .fluid-9 {
+        font-size: var(--step-9);
+    }
+
+    .container--spacing {
+        padding-top: var(--step-4);
+        padding-bottom: var(--step-5);
+        padding-left: var(--step-1);
+        padding-right: var(--step-1);
+    }
+
+    .container--card {
+        max-width: 100%;
+
+        @media screen and (min-width: 760px) {
+            max-width: 90%;
+        }
+
+        @media screen and (min-width: 990px) {
+            max-width: 85%;
+        }
+
+        @media screen and (min-width: 1200px) {
+            max-width: 80%;
+        }
+        padding-top: var(--step-4);
+        padding-bottom: var(--step-5);        
+        // padding-left: var(--step-6);
+        // padding-right: var(--step-6);        
+    }
+
+    .container--text {
+        max-width: 100%;
+
+        @media screen and (min-width: 760px) {
+            max-width: 80%;
+        }
+
+        @media screen and (min-width: 990px) {
+            max-width: 75%;
+        }
+
+        @media screen and (min-width: 1200px) {
+            max-width: 60%;
+        }
+        padding-top: var(--step-4);
+        padding-bottom: var(--step-5);
+    }
+
+    .container--image {
+        @media screen and (min-width: 1750px) {
+            max-width: 2000px;
+        }
+    }
+}

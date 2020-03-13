@@ -1,0 +1,47 @@
+{
+  "name": "fluid-responsive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NouryJanse/fluid-responsive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NouryJanse/fluid-responsive/issues"
+  },
+  "homepage": "https://github.com/NouryJanse/fluid-responsive#readme",
+  "scripts": {
+    "lint-css": "stylelint 'htmldev/sass/**/*.scss' --verbose",
+    "lint-ts": "tslint --config node_modules/@zicht/tslint/tslint.json --project tsconfig.json",
+    "build": "webpack --mode=production",
+    "build-dev": "webpack --mode=development",
+    "watch": "webpack --mode=production --watch",
+    "watch-dev": "webpack --mode=development --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "awesome-typescript-loader": "^5.0.0",
+    "cache-loader": "^3.0.0",
+    "css-loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.0.3",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.23.1",
+    "stylelint-webpack-plugin": "^0.10.5",
+    "tslint-loader": "^3.6.0",
+    "typescript": "^3.4.5",
+    "webpack": "^4.30.0",
+    "webpack-build-notifier": "^1.0.1",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-cli": "^3.3.1",
+    "webpack-fix-style-only-entries": "^0.2.1",
+    "webpack-polyfill-injector": "^3.0.2"
+  },
+  "dependencies": {}
+}
